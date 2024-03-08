@@ -1,0 +1,96 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00A9FF, #89CFF3, #E900FF);
+  /* pink #E900FF */
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#whitebtn {
+  background-color: white;
+}
+
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+#pebbles {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.test {
+  margin: 10px;
+  height: 50px;
+  width: 200px;
+}
+
+#projectCarousel {
+  margin: 30px;
+}
+
+/* Set maximum height and width for the carousel images */
+.carousel-item img {
+  max-height: 500px; /* Adjust the max height as needed */
+  max-width: 100%; /* This ensures the image width is responsive and does not exceed its container width */
+  object-fit: contain; /* This makes sure the image aspect ratio is preserved within the given dimensions */
+}
+
+/* Optional: Set maximum height and width for the carousel container */
+.carousel {
+  max-width: 100%; /* Ensures the carousel does not exceed the width of its container */
+  max-height: 500px; /* Adjust the max height as needed */
+  margin: auto; /* Centers the carousel if the screen width is larger than the carousel's max width */
+}
+
+#showcaseTitle {
+  text-align: center;
+}
+
+/* #spaceImage {
+  width: 500px;
+  height: 500px;
+} */
+
+/* #titlebuttons {
+  margin-left: 10px;
+} */
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
